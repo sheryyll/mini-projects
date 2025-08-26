@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: #F5EFEB;   
+  color: #2F4156;              
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #567C8D;   
+  padding: 20px;
+  border-bottom: 2px solid #2F4156;
+  
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #C8D9E6;
+}
+
+#about {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 15px;
+  background-color: #FFFFFF;  
+  border: 2px solid #C8D9E6;
+  border-radius: 20px;
+}
+
+#about > img {
+  border-radius: 50%;
+  margin: 15px 0;
+  border: 4px solid #567C8D;
+}
+
+#about > h2 {
+  margin-bottom: 10px;
+  color: #2F4156;
+} 
+
+#projects {
+  margin: 30px auto;
+  padding: 15px;
+}
+
+#projects > h2 {
+  margin-bottom: 20px;
+  color: #2F4156;
+}
+
+.projects {
+  background-color: #C8D9E6;  
+  border: 2px solid #567C8D;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 500px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.projects > h3 {
+  margin-bottom: 8px;
+  color: #2F4156;
+}
+
+.projects > a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #567C8D;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.projects > a:hover {
+  background-color: #2F4156;
+  color: #F5EFEB;
+}
+
+#contact {
+  margin: 30px auto;
+  padding: 15px;
+}
+
+#contact > h2 {
+  margin-bottom: 10px;
+  color: #2F4156;
+}
+
+#contact > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #567C8D;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #2F4156;
+}
+
+footer {
+  background-color: #2F4156;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 2px solid #567C8D;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+}
