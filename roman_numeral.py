@@ -1,3 +1,6 @@
+#This Python program is a Roman Numeral to Integer Converter. 
+#It allows users to repeatedly enter Roman numerals and converts them into their corresponding integer values.
+
 def roman_to_int(numeral):
     final_answer = 0
 
@@ -51,3 +54,4 @@ while True:
     if again not in ("yes", "y"):
         print("👋 Exiting Roman Numeral Converter. Goodbye!")
         break
+
