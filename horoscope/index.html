@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horoscope App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Horoscope Finder</h2>
+    <input type="number" id="day" placeholder="Enter birth day (1-31)" min="1" max="31">
+    <select id="month">
+      <option value="">Select month</option>
+      <option value="january">January</option>
+      <option value="february">February</option>
+      <option value="march">March</option>
+      <option value="april">April</option>
+      <option value="may">May</option>
+      <option value="june">June</option>
+      <option value="july">July</option>
+      <option value="august">August</option>
+      <option value="september">September</option>
+      <option value="october">October</option>
+      <option value="november">November</option>
+      <option value="december">December</option>
+    </select>
+    <button id="getHoroscope">Get Horoscope</button>
+    <div id="result"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
